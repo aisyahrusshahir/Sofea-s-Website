@@ -11,7 +11,6 @@ body {
   line-height: 1.6;
 }
 
-/* Navbar */
 .navbar {
   display: flex;
   justify-content: space-between;
@@ -55,7 +54,7 @@ body {
   font-weight: 600;
 }
 
-/* Index Section */
+
 .main {
   display: flex;
   align-items: center;
@@ -116,7 +115,7 @@ body {
   opacity: 0.9;
 }
 
-/* Image Section */
+
 .main-image {
   flex: 1;
   display: flex;
@@ -139,7 +138,7 @@ body {
   z-index: 1;
 }
 
-/* === About Page Styles === */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -193,7 +192,7 @@ body {
   text-align: justify;
 }
 
-/* === Background Page Styles === */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -253,8 +252,6 @@ body {
 }
 
 
-
-/* === Skills Page Styles === */
 .card-grid {
   display: flex;
   flex-wrap: wrap;
@@ -286,7 +283,7 @@ body {
   text-align: left;
 }
 
-/* === Achievements Page Styles === */
+
 .achievement-grid {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
@@ -325,7 +322,7 @@ body {
 }
 
 
-/* Responsive */
+
 @media (max-width: 768px) {
   .navbar {
     flex-direction: column;
@@ -346,7 +343,7 @@ body {
   }
 }
 
-/* Styles */
+
 * {
   margin: 0;
   padding: 0;
@@ -360,7 +357,7 @@ body {
   line-height: 1.6;
 }
 
-/* Navigation & Header */
+
 header {
   background-color: #fff;
   padding: 2rem 3rem 1rem;
@@ -395,7 +392,7 @@ nav a.active {
 }
 
 
-/* Portfolio */
+
 body {
   font-family: 'Segoe UI', sans-serif;
   margin: 0;
@@ -435,7 +432,7 @@ body {
 }
 
 
-/* Project Cards */
+
 .project-cards {
   display: grid;
   grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
@@ -479,7 +476,7 @@ body {
   color: #333;
 }
 
-/* === Contact Page Styles === */
+
 body {
   margin: 0;
   font-family: 'Segoe UI', sans-serif;
@@ -600,7 +597,7 @@ button:hover {
 }
 
 
-/* Footer */
+
 footer {
   background-color: #1f3522;
   color: white;
@@ -611,21 +608,20 @@ footer {
   width: 100%;
 }
 
-/* Sticky Footer Layout */
+
 html, body {
   height: 100%;
   margin: 0;
   padding: 0;
 }
 
-/* Wrap Footer*/
 .wrapper {
   min-height: calc(100vh - 80px);
   display: flex;
   flex-direction: column;
 }
 
-/* Footer style */
+
 footer {
   background-color: #1f3522;
   color: white;
@@ -642,8 +638,6 @@ footer {
 }
 
 
-
-/* Design */
 @media (max-width: 768px) {
   nav {
     display: flex;
@@ -660,7 +654,7 @@ footer {
   }
 }
 
-/* Container Styling */
+
 .container {
   max-width: 700px;
   margin: 3rem auto;
@@ -670,7 +664,7 @@ footer {
   box-shadow: 0 6px 20px rgba(0, 0, 0, 0.1);
 }
 
-/* Heading */
+
 .container h2 {
   font-family: 'DM Sans', sans-serif;
   font-size: 2rem;
@@ -679,7 +673,7 @@ footer {
   text-align: center;
 }
 
-/* List Styling */
+
 ul.Student {
   list-style: none;
   padding-left: 0;
@@ -690,7 +684,7 @@ ul.Student li {
   margin-bottom: 1rem;
 }
 
-/* Image Size */
+
 ul.Student img {
   width: 150px;
   height: auto;
